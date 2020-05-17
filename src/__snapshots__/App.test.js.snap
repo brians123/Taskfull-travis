@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div>
+  
+    
+  <label
+    for="username"
+  >
+    Username
+  </label>
+  
+    
+  <input
+    id="username"
+  />
+  
+    
+  <button>
+    Print Username
+  </button>
+  
+  
+</div>
+`;
