@@ -35,3 +35,9 @@ test("renders learn react link", async () => {
   // jest snapshots work great with regular DOM nodes!
   expect(container).toMatchSnapshot();
 });
+
+test("renders learn react link", () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
