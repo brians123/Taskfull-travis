@@ -38,7 +38,6 @@ function App() {
 
   return (
     <div className="App">
-      <a>learn react</a>
       <header className="App-header">
         <MuiThemeProvider theme={THEME}>
           <BrowserRouter>

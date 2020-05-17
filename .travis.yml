@@ -10,7 +10,7 @@ script:
 notifications:
   email:
     recipients:
-      - brian.sui88@gmail.com
+      - brianssui@yahoo.com
     on_success: always
     on_failure: always
 after_success:
