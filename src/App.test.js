@@ -14,5 +14,5 @@ import Newtask from "./components/Newtask";
 
 test("Newtask renders correctly", () => {
   const { queryByTestId, queryByPlaceholderName } = render(<Newtask />);
-  expect(queryByTestId("cancel-button")).toBe(true);
+  expect(queryByTestId("cancel-button").type).toBe("div");
 });
