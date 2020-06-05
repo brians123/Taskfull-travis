@@ -13,7 +13,7 @@ import FilterCard from "./components/FilterCard";
 import Newtask from "./components/Newtask";
 
 test("Newtask renders correctly", () => {
-  const { queryByTestId, queryByPlaceholderName } = render(<FilterCard />);
+  const { queryByTestId, queryByPlaceholderName } = render(<Newtask />);
   // expect(queryByTestId("unaccept-button")).toBeTruthy();
 });
 
