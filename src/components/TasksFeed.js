@@ -234,7 +234,6 @@ const TasksFeed = ({ user }) => {
     <Grid container spacing={2}>
       <Grid style={{ padding: "1em" }} item xs={3}>
         <Button
-          data-testid="add-button"
           className={classes.BUTTON}
           variant="contained"
           size="large"

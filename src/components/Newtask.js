@@ -526,7 +526,11 @@ const Newtask = ({ handleclose, user }) => {
           {errors.address && <p className="error">{errors.address}</p>}
         </DialogContent>
         <DialogActions>
-          <Button onClick={() => handleclose()} color="primary">
+          <Button
+            data-testid="cancel-button"
+            onClick={() => handleclose()}
+            color="primary"
+          >
             Cancel
           </Button>
           <Button
