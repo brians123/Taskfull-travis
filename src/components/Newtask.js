@@ -489,7 +489,7 @@ const Newtask = ({ handleclose, user }) => {
                   </div>
                 ))}
                 <div className="table-row">
-                  <div className="table-data">
+                  <div className="table-data" data-testid="add-button">
                     <AddCircleIcon
                       style={{ fill: "#616161", cursor: "pointer" }}
                       onClick={addNewItem}
