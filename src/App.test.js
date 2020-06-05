@@ -9,11 +9,11 @@ import {
   getByTestId,
 } from "@testing-library/dom";
 import App from "./App";
-
+import FilterCard from "./components/FilterCard";
 import Newtask from "./components/Newtask";
 
 test("Newtask renders correctly", () => {
-  const { queryByTestId, queryByPlaceholderName } = render(<Newtask />);
+  const { queryByTestId, queryByPlaceholderName } = render(<FilterCard />);
   // expect(queryByTestId("unaccept-button")).toBeTruthy();
 });
 

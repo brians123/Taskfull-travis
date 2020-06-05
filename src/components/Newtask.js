@@ -370,11 +370,7 @@ const Newtask = ({ handleclose, user }) => {
         <Typography className="dialog-header" fontWeight={700} variant="h4">
           Please fill this form for your grocery run
         </Typography>
-        <Typography
-          className="dialog-header"
-          fontWeight={400}
-          variant="subtitle"
-        >
+        <Typography className="dialog-header" fontWeight={400} variant="h5">
           It only takes 2 minutes!
         </Typography>
         <DialogContent>
@@ -455,7 +451,7 @@ const Newtask = ({ handleclose, user }) => {
               <div className="table-body">
                 {values.items.map((item, index) => (
                   <div className="table-row" key={index}>
-                    <div className="table-data">
+                    <div className="table-data" keu={index}>
                       <TextField
                         className="new-task-field"
                         id="standard-basic"
