@@ -10,7 +10,7 @@ describe("Test App", () => {
 
   it("login and see Add New Task button", () => {
     cy.visit("/");
-    cy.get("[data-cy=login]").click();
+    cy.contains("Sign in with Google").click();
     cy.get("[data-cy=feed]").should("contain", "Add New Task");
   });
 });

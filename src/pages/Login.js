@@ -116,7 +116,7 @@ export default function Login({ user, history }) {
           </Typography>
           {user ? (
             <Button
-              data-cy="login"
+              data-cy="goHome"
               color="primary"
               onClick={() => setLoggedIn(true)}
               color="inherit"
@@ -125,6 +125,7 @@ export default function Login({ user, history }) {
             </Button>
           ) : (
             <StyledFirebaseAuth
+              data-cy="login"
               uiConfig={uiConfig}
               firebaseAuth={firebase.auth()}
             />
