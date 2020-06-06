@@ -8,9 +8,9 @@ describe("Test App", () => {
     cy.contains("Sign in with Google");
   });
 
-  it("click Add New Task button", () => {
+  it("login and see Add New Task button", () => {
     cy.visit("/");
-    cy.get("[data-cy=addTask]").click();
-    cy.get("[data-cy=dialogPopup]").should("contain", "Cancel");
+    cy.get("[data-cy=login]").click();
+    cy.get("[data-cy=feed]").should("contain", "Add New Task");
   });
 });

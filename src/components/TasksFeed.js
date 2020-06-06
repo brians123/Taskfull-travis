@@ -231,7 +231,7 @@ const TasksFeed = ({ user }) => {
   const classes = useStyles();
 
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} data-cy="feed">
       <Grid style={{ padding: "1em" }} item xs={3}>
         <Button
           className={classes.BUTTON}
