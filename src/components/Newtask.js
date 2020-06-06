@@ -365,7 +365,7 @@ const Newtask = ({ handleclose, user }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} noValidate>
+    <form onSubmit={handleSubmit} noValidate data-cy="dialogPopup">
       <Grid style={{ padding: "1em" }}>
         <Typography className="dialog-header" fontWeight={700} variant="h4">
           Please fill this form for your grocery run

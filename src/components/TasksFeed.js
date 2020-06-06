@@ -240,6 +240,7 @@ const TasksFeed = ({ user }) => {
           onClick={() => setFormOpen(true)}
           startIcon={<AddIcon />}
           style={{ backgroundColor: "#3f51b5", color: "white" }}
+          data-cy="addTask"
         >
           Add New Task
         </Button>
