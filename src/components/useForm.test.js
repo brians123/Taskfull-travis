@@ -10,6 +10,6 @@ describe("add item", () => {
       result.current.addNewItem();
     });
 
-    expect(result.current.values.items.length).toBe(0);
+    expect(result.current.values.items.length).toBe(2);
   });
 });
